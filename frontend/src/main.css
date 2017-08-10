@@ -1,7 +1,7 @@
 /***     index.html     ***/
 html {
   background: url('resources/send_bg.svg');
-  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'segoe ui',
+  font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'segoe ui',
     'helvetica neue', helvetica, ubuntu, roboto, noto, arial, sans-serif;
   font-weight: 200;
   background-size: 110%;
@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'segoe ui',
+  font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'segoe ui',
     'helvetica neue', helvetica, ubuntu, roboto, noto, arial, sans-serif;
   display: flex;
   flex-direction: column;
@@ -53,7 +53,7 @@ body {
 .site-title {
   color: #3e3d40;
   font-size: 32px;
-  font-weight: 500;
+  font-weight: 600;
   margin: 0;
   position: relative;
   top: -1px;
@@ -139,7 +139,7 @@ a {
 }
 
 .btn {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 /**   page-one    **/
@@ -150,7 +150,7 @@ a {
   margin: 20px auto;
   text-align: center;
   max-width: 520px;
-  font-family: 'SF Pro Display', sans-serif;
+  /*font-family: 'SF Pro Display', sans-serif;*/
   word-wrap: break-word;
 }
 
@@ -204,7 +204,7 @@ a {
   font-size: 22px;
   color: #737373;
   margin: 20px 0 10px;
-  font-family: 'SF Pro Display', sans-serif;
+  /*font-family: 'SF Pro Display', sans-serif;*/
 }
 
 #browse {
@@ -259,7 +259,7 @@ td {
 
 table {
   border-collapse: collapse;
-  font-family: 'Segoe UI', 'SF Pro Text', sans-serif;
+  /*font-family: 'Segoe UI', 'SF Pro Text', sans-serif;*/
 }
 
 tbody {
@@ -376,7 +376,7 @@ tbody {
   background-color: #0297f8;
   border-radius: 5px;
   padding: 5px 25px;
-  font-weight: normal;
+  font-weight: 600;
   cursor: pointer;
   min-width: 94px;
   box-sizing: border-box;
@@ -418,7 +418,7 @@ tbody {
 .percentage {
   position: absolute;
   letter-spacing: -0.78px;
-  font-family: 'Segoe UI', 'SF Pro Text', sans-serif;
+  /*font-family: 'Segoe UI', 'SF Pro Text', sans-serif;*/
   top: 53px;
   left: 50%;
   transform: translateX(-50%);
@@ -496,7 +496,7 @@ tbody {
   border-radius: 6px 0 0 6px;
   font-size: 24px;
   color: #737373;
-  font-family: 'SF Pro Display', sans-serif;
+  /*font-family: 'SF Pro Display', sans-serif;*/
   letter-spacing: 0;
   line-height: 23px;
   font-weight: 300;
@@ -614,7 +614,7 @@ tbody {
   border: 0;
   box-shadow: 0 5px 3px rgb(234, 234, 234);
   font-family: 'Fira Sans';
-  font-weight: 500;
+  font-weight: 600;
   color: #fff;
   font-size: 26px;
   display: flex;
@@ -716,7 +716,7 @@ tbody {
 }
 
 .legal-links {
-  width: 81vw;
+  max-width: 81vw;
   display: flex;
   align-items: center;
   flex-direction: row;
